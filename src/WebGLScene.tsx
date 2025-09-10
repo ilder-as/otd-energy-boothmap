@@ -411,7 +411,7 @@ const WebGLScene: React.FC<WebGLSceneProps> = ({ areaData, showExhibitorDetails 
     renderer.domElement.addEventListener("click", e => onClick(e, renderer, camera));
     
     // Use areaId directly from areaData
-    initModel('/3D-models-Exhibition-Areas/models/'+areaData.areaId+'.glb');
+    initModel('/models/'+areaData.areaId+'.glb');
 
 
     // Function to update callout orientations to face camera
